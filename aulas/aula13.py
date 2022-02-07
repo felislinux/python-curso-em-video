@@ -22,7 +22,7 @@ print('faz do 0 ate o 6 pulando de 2 em 2')
 n = int(input('Digite um numero: '))
 for c in range(0, n):
     print(c)
-print('vai mostrar ate o numero digitado: ')
+print('vai mostrar ate o numero digitado , lembrando que começa com 0 e não le o ultimo: ')
 #
 n = int(input('Digite um numero: '))
 for c in range(0, n+1): #acrescenta +1 a contagem
@@ -35,20 +35,22 @@ p = int(input('quantidade de passos: '))
 for c in range (i, f+1, p):
     print(c)
 print('você deu todas as etapas do for')
-###
+
+############
+
 for c in range(0, 3):
     n = int(input('Digite um valor: '))
-print('leu só 1 vez, mas o comando esta dentro do for, ou seja, vai repetir \n3 vezes, de acordo com o anunciado')
-
-#
+print('leu só 1 vez, mas o comando esta dentro do for, ou seja,\n3 vai repetir vezes, de acordo com o anunciado')
+############
 s = 0
 for c in range(0, 4):
     n =int(input('digite um valor: '))
     s = s + n # ou como s += n
 print('o somatorio de todos valores foi {} :'.format(s))
-#
+############
 s = 0
 for c in range(0, 4):
     n =int(input('digite um valor: '))
     s += n # ou s = s + n
 print('o somatorio de todos valores foi {} :'.format(s))
+############
